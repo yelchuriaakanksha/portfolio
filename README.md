@@ -1,7 +1,7 @@
 # portfolio
 Project Rubric
 The page at minimum includes all of the following:
-* 8 images
+* 7 images
 * Title text
 * Regular (paragraph) text
 * A logo.
@@ -31,38 +31,31 @@ If a CSS framework is used, classes provided by the CSS framework are used to ma
 Separation of Concerns
 Styles Separated From HTML
 
-Portfolio completely separates structure (HTML) from design/style (CSS). There are no style attributes present in the body of the HTML document. There are no <style> elements in the document.
+Portfolio completely separates structure (HTML) from design/style (CSS). There are no style attributes present in the body of the HTML document. 
 
-Note: It is acceptable to include height and width attributes in  elements.
+File structure:
+* Files are organized with a directory structure that separates files based on functionality. For example: css/ for stylesheets img/ for images js/ for JavaScript files
 
-File structure
-Files are organized with a directory structure that separates files based on functionality. For example: css/ for stylesheets img/ for images js/ for JavaScript files
+HTML Formatting rules:
 
-Code  Quality
-HTML Formatting rules
-
-All code ( HTML element names, attributes, attribute values) is lowercase (except text/CDATA).
-Code does not have trailing white spaces.
-Indentation is consistent (either all tabs or all 2 spaces or all 4 spaces etc).
-Code uses a new line for every block, list or table element and indent every such child element (it's acceptable to put all
+* All code ( HTML element names, attributes, attribute values) is lowercase (except text/CDATA).
+* Indentation is consistent (either all tabs or all 2 spaces or all 4 spaces etc).
+* Code uses a new line for every block, list or table element and indent every such child element (it's acceptable to put all
 elements in one line).
-[Optional] When quoting attribute values, code uses double quotation marks.
-HTML Style Rules
+* When quoting attribute values, code uses double quotation marks.
 
-HTML documents use HTML5 <!doctype html>.
-Code passes HTML and CSS validators.
-[Optional]Code does not use entity references unless necessary e.g. characters with special meaning in HTML (like < and &) as well as control or “invisible” characters (like no-break spaces).
-[Optional]Code omits type attributes for style sheets and scripts.
-CSS Formatting Rules
+HTML Style Rules:
+* HTML documents use HTML5 <!doctype html>.
+* Code passes HTML and CSS validators.
+* Code does not use entity references unless necessary e.g. characters with special meaning in HTML (like < and &) as well as control or “invisible” characters (like no-break spaces).
 
-Code does not have trailing white spaces.
-Indentation is consistent (either all tabs or all 2 spaces or all 4 spaces etc).
-Code indents all block content, that is rules within rules as well as declarations to reflect hierarchy and improve understanding.
-Code uses a semicolon after every declaration for consistency and extensibility reasons.
-Code always uses a space after a property name's colon, but no space between property and colon, for consistency reasons.
-Code always use a single space between the last selector and the opening brace that begins the declaration block.
-Code always start a new line for each selector and declaration.
-Code always put a blank line (two line breaks) between rules.
+CSS Formatting Rules:
+* Indentation is consistent (either all tabs or all 2 spaces or all 4 spaces etc).
+* Code indents all block content, that is rules within rules as well as declarations to reflect hierarchy and improve understanding.
+* Code uses a semicolon after every declaration for consistency and extensibility reasons.
+* Code always uses a space after a property name's colon, but no space between property and colon, for consistency reasons.
+* Code always start a new line for each selector and declaration.
+* Code always put a blank line between rules.
 [Optional] Code uses double quotation marks for attribute selectors or property values. Do not use quotation marks in URI values (url()).
 CSS Style Rules
 
