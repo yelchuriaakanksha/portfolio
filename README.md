@@ -7,38 +7,24 @@ The page at minimum includes all of the following:
 * A logo.
 * Semantic HTML
 * HTML5 semantic tags such as header, footer, article, section etc. are used to add meaning to the code.
+* No div or section tags are without a CSS class or id.
 
-No <div> or <section> tags are without a CSS class or id.
-
-Custom Design
-Provide at least one of the following customizations:
-
-Customize images and text.
-Customize placement of the elements on the page (grid layout) with both HTML and CSS
-Customize CSS styles applied to paragraph and heading elements.
-Grid-Based Layout
-Page utilizes a grid-based layout with styles making use of the flexbox layout or a framework like Bootstrap, Foundation, etc. If you're using Bootstrap: the rows and columns of the grid must be wrapped in an element with a container class.
-
-Responsiveness
-Cross-Device Compatibility
-
-All content is responsive and displays on all display sizes. This includes:
-
-Desktop Mobile: Google Nexus 5 Tablet: Apple iPad
-An image's associated title and text renders next to the image in all viewport sizes.
+Custom Design:
+* Customize images and text.
+* Customize placement of the elements on the page (grid layout) with both HTML and CSS
+* Customize CSS styles applied to paragraph and heading elements.
+* Grid-Based Layout
+* Page utilizes a grid-based layout with styles making use of the flexbox layout or a framework like Bootstrap, Foundation, etc. 
+* Responsiveness
+* Cross-Device Compatibility
+All content is responsive and displays on all display sizes.
 
 Testing Responsiveness:
-Test responsiveness with Chrome Developer Tools device emulation by right-clicking anywhere on page, selecting ‘Inspect Element’, clicking the rectangle to the left of the Elements tab, select Apple iPad or Google Nexus 5 from Device drop-down list, and click reload.
-
-Provide All Content
-
-All content is rendered on all three devices. No content should be hidden on mobile devices.
-
-Viewport meta Tag
-
-Viewport meta tag is included in HTML. (i.e. <meta name=”viewport” …)
-
-Responsive Images
+* Test responsiveness with Chrome Developer Tools device emulation by right-clicking anywhere on page, selecting ‘Inspect Element’, clicking the rectangle to the left of the Elements tab, select Apple iPad or Google Nexus 5 from Device drop-down list, and click reload.
+* All content is rendered on all three devices. No content should be hidden on mobile devices.
+* Viewport meta Tag
+* Viewport meta tag is included in HTML. (i.e. <meta name=”viewport” …)
+* Responsive Images
 
 If a CSS framework is used, classes provided by the CSS framework are used to make images responsive, otherwise media-queries are used to ensure responsiveness of images.
 
