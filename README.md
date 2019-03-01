@@ -52,7 +52,7 @@ Note: It is acceptable to include height and width attributes in  elements.
 File structure
 Files are organized with a directory structure that separates files based on functionality. For example: css/ for stylesheets img/ for images js/ for JavaScript files
 
-Code Quality
+Code  Quality
 HTML Formatting rules
 
 All code ( HTML element names, attributes, attribute values) is lowercase (except text/CDATA).
