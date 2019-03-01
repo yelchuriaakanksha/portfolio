@@ -14,7 +14,7 @@ Custom Design
 Provide at least one of the following customizations:
 
 Customize images and text.
-Customize placement of the elements on the page (grid layout) with HTML, CSS or both.
+Customize placement of the elements on the page (grid layout) with both HTML and CSS
 Customize CSS styles applied at minimum to paragraph and heading elements.
 Grid-Based Layout
 Page utilizes a grid-based layout with styles making use of the flexbox layout or a framework like Bootstrap, Foundation, etc. If you're using Bootstrap: the rows and columns of the grid must be wrapped in an element with a container class.
